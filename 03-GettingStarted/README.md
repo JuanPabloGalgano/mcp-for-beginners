@@ -1,93 +1,93 @@
-## Getting Started  
+## Primeros Pasos
 
 [![Build Your First MCP Server](../images/video-thumbnails/04.png)](https://youtu.be/sNDZO9N4m9Y)
 
-_(Click the image above to view video of this lesson)_
+_(Haz clic en la imagen de arriba para ver el video de esta lección)_
 
-This section consists of several lessons:
+Esta sección consta de varias lecciones:
 
-- **1 Your first server**, in this first lesson, you will learn how to create your first server and inspect it with the inspector tool, a valuable way to test and debug your server, [to the lesson](01-first-server/README.md)
+- **1 Tu primer servidor**, en esta primera lección, aprenderás cómo crear tu primer servidor e inspeccionarlo con la herramienta inspector, una forma muy útil de probar y depurar tu servidor, [ir a la lección](01-first-server/README.md)
 
-- **2 Client**, in this lesson, you will learn how to write a client that can connect to your server, [to the lesson](02-client/README.md)
+- **2 Cliente**, en esta lección, aprenderás cómo escribir un cliente que pueda conectarse a tu servidor, [ir a la lección](02-client/README.md)
 
-- **3 Client with LLM**, an even better way of writing a client is by adding an LLM to it so it can "negotiate" with your server on what to do, [to the lesson](03-llm-client/README.md)
+- **3 Cliente con LLM**, una forma aún mejor de escribir un cliente es agregándole un LLM para que pueda "negociar" con tu servidor qué hacer, [ir a la lección](03-llm-client/README.md)
 
-- **4 Consuming a server GitHub Copilot Agent mode in Visual Studio Code**. Here, we're looking at running our MCP Server from within Visual Studio Code, [to the lesson](04-vscode/README.md)
+- **4 Consumir un servidor en modo GitHub Copilot Agent en Visual Studio Code**. Aquí veremos cómo ejecutar nuestro servidor MCP desde dentro de Visual Studio Code, [ir a la lección](04-vscode/README.md)
 
-- **5 stdio Transport Server** stdio transport is the recommended standard for local MCP server-to-client communication, providing secure subprocess-based communication with built-in process isolation [to the lesson](05-stdio-server/README.md)
+- **5 Servidor de transporte stdio** El transporte stdio es el estándar recomendado para la comunicación local entre servidor y cliente MCP, proporcionando comunicación segura basada en subprocesos con aislamiento de procesos integrado [ir a la lección](05-stdio-server/README.md)
 
-- **6 HTTP Streaming with MCP (Streamable HTTP)**. Learn about modern HTTP streaming transport (the recommended approach for remote MCP servers per [MCP Specification 2025-11-25](https://spec.modelcontextprotocol.io/specification/2025-11-25/basic/transports/#streamable-http)), progress notifications, and how to implement scalable, real-time MCP servers and clients using Streamable HTTP. [to the lesson](06-http-streaming/README.md)
+- **6 HTTP Streaming con MCP (Streamable HTTP)**. Aprende sobre el transporte moderno de streaming HTTP (el enfoque recomendado para servidores MCP remotos según la [MCP Specification 2025-11-25](https://spec.modelcontextprotocol.io/specification/2025-11-25/basic/transports/#streamable-http)), notificaciones de progreso, y cómo implementar servidores y clientes MCP escalables en tiempo real usando Streamable HTTP. [ir a la lección](06-http-streaming/README.md)
 
-- **7 Utilising AI Toolkit for VSCode** to consume and test your MCP Clients and Servers [to the lesson](07-aitk/README.md)
+- **7 Uso de AI Toolkit para VSCode** para consumir y probar tus clientes y servidores MCP [ir a la lección](07-aitk/README.md)
 
-- **8 Testing**. Here we will focus especially how we can test out our server and client in different ways, [to the lesson](08-testing/README.md)
+- **8 Pruebas**. Aquí nos enfocaremos especialmente en cómo podemos probar nuestro servidor y cliente de diferentes maneras, [ir a la lección](08-testing/README.md)
 
-- **9 Deployment**. This chapter will look at different ways of deploying your MCP solutions, [to the lesson](09-deployment/README.md)
+- **9 Despliegue**. Este capítulo verá diferentes formas de desplegar tus soluciones MCP, [ir a la lección](09-deployment/README.md)
 
-- **10 Advanced server usage**. This chapter covers advanced server usage, [to the lesson](./10-advanced/README.md)
+- **10 Uso avanzado del servidor**. Este capítulo cubre el uso avanzado del servidor, [ir a la lección](./10-advanced/README.md)
 
-- **11 Auth**. This chapter covers how to add simple auth, from Basic Auth to using JWT and RBAC. You're encouraged to start here and then look at Advanced Topics in Chapter 5 and perform additional security hardening via recommendations in Chapter 2, [to the lesson](./11-simple-auth/README.md)
+- **11 Autenticación**. Este capítulo cubre cómo agregar autenticación simple, desde Basic Auth hasta el uso de JWT y RBAC. Se te recomienda comenzar aquí y luego revisar los Temas Avanzados en el Capítulo 5 y realizar un endurecimiento de seguridad adicional mediante las recomendaciones del Capítulo 2, [ir a la lección](./11-simple-auth/README.md)
 
-- **12 MCP Hosts**. Configure and use popular MCP host clients including Claude Desktop, Cursor, Cline, and Windsurf. Learn transport types and troubleshooting, [to the lesson](./12-mcp-hosts/README.md)
+- **12 Hosts MCP**. Configura y usa clientes host MCP populares incluyendo Claude Desktop, Cursor, Cline y Windsurf. Aprende sobre tipos de transporte y resolución de problemas, [ir a la lección](./12-mcp-hosts/README.md)
 
-- **13 MCP Inspector**. Debug and test your MCP servers interactively using the MCP Inspector tool. Learn to troubleshoot tools, resources, and protocol messages, [to the lesson](./13-mcp-inspector/README.md)
+- **13 Inspector MCP**. Depura y prueba tus servidores MCP de forma interactiva usando la herramienta MCP Inspector. Aprende a solucionar problemas con herramientas, recursos y mensajes de protocolo, [ir a la lección](./13-mcp-inspector/README.md)
 
-- **14 Sampling**. Create MCP Servers that collaborate with MCP clients on LLM related tasks. [to the lesson](./14-sampling/README.md)
+- **14 Muestreo**. Crea servidores MCP que colaboren con clientes MCP en tareas relacionadas con LLM. [ir a la lección](./14-sampling/README.md)
 
-- **15 MCP Apps**. Build MCP Servers that also reply with UI instructions, [to the lesson](./15-mcp-apps/README.md)
+- **15 Aplicaciones MCP**. Construye servidores MCP que también respondan con instrucciones de UI, [ir a la lección](./15-mcp-apps/README.md)
 
-The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications - it provides a standardized way to connect AI models to different data sources and tools.
+El Protocolo de Contexto de Modelos (MCP) es un protocolo abierto que estandariza cómo las aplicaciones proporcionan contexto a los LLMs. Piensa en MCP como un puerto USB-C para aplicaciones de IA: proporciona una forma estandarizada de conectar modelos de IA a diferentes fuentes de datos y herramientas.
 
-## Learning Objectives
+## Objetivos de Aprendizaje
 
-By the end of this lesson, you will be able to:
+Al final de esta lección, serás capaz de:
 
-- Set up development environments for MCP in C#, Java, Python, TypeScript, and JavaScript
-- Build and deploy basic MCP servers with custom features (resources, prompts, and tools)
-- Create host applications that connect to MCP servers
-- Test and debug MCP implementations
-- Understand common setup challenges and their solutions
-- Connect your MCP implementations to popular LLM services
+- Configurar entornos de desarrollo para MCP en C#, Java, Python, TypeScript y JavaScript
+- Construir y desplegar servidores MCP básicos con características personalizadas (recursos, prompts y herramientas)
+- Crear aplicaciones host que se conecten a servidores MCP
+- Probar y depurar implementaciones MCP
+- Comprender los desafíos comunes de configuración y sus soluciones
+- Conectar tus implementaciones MCP a servicios LLM populares
 
-## Setting Up Your MCP Environment
+## Configuración de tu Entorno MCP
 
-Before you begin working with MCP, it's important to prepare your development environment and understand the basic workflow. This section will guide you through the initial setup steps to ensure a smooth start with MCP.
+Antes de comenzar a trabajar con MCP, es importante preparar tu entorno de desarrollo y comprender el flujo de trabajo básico. Esta sección te guiará a través de los pasos iniciales de configuración para garantizar un comienzo fluido con MCP.
 
-### Prerequisites
+### Requisitos Previos
 
-Before diving into MCP development, ensure you have:
+Antes de adentrarte en el desarrollo de MCP, asegúrate de tener:
 
-- **Development Environment**: For your chosen language (C#, Java, Python, TypeScript, or JavaScript)
-- **IDE/Editor**: Visual Studio, Visual Studio Code, IntelliJ, Eclipse, PyCharm, or any modern code editor
-- **Package Managers**: NuGet, Maven/Gradle, pip, or npm/yarn
-- **API Keys**: For any AI services you plan to use in your host applications
+- **Entorno de Desarrollo**: Para el lenguaje que hayas elegido (C#, Java, Python, TypeScript o JavaScript)
+- **IDE/Editor**: Visual Studio, Visual Studio Code, IntelliJ, Eclipse, PyCharm o cualquier editor de código moderno
+- **Gestores de Paquetes**: NuGet, Maven/Gradle, pip o npm/yarn
+- **Claves de API**: Para cualquier servicio de IA que planees usar en tus aplicaciones host
 
 
-### Official SDKs
+### SDKs Oficiales
 
-In the upcoming chapters you will see solutions built using Python, TypeScript, Java and .NET. Here are all the officially supported SDKs.
+En los próximos capítulos verás soluciones construidas usando Python, TypeScript, Java y .NET. Aquí están todos los SDKs oficialmente soportados.
 
-MCP provides official SDKs for multiple languages (aligned with [MCP Specification 2025-11-25](https://spec.modelcontextprotocol.io/specification/2025-11-25/)):
-- [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) - Maintained in collaboration with Microsoft
-- [Java SDK](https://github.com/modelcontextprotocol/java-sdk) - Maintained in collaboration with Spring AI
-- [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - The official TypeScript implementation
-- [Python SDK](https://github.com/modelcontextprotocol/python-sdk) - The official Python implementation (FastMCP)
-- [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) - The official Kotlin implementation
-- [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) - Maintained in collaboration with Loopwork AI
-- [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - The official Rust implementation
-- [Go SDK](https://github.com/modelcontextprotocol/go-sdk) - The official Go implementation
+MCP proporciona SDKs oficiales para múltiples lenguajes (alineados con la [MCP Specification 2025-11-25](https://spec.modelcontextprotocol.io/specification/2025-11-25/)):
+- [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) - Mantenido en colaboración con Microsoft
+- [Java SDK](https://github.com/modelcontextprotocol/java-sdk) - Mantenido en colaboración con Spring AI
+- [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - La implementación oficial de TypeScript
+- [Python SDK](https://github.com/modelcontextprotocol/python-sdk) - La implementación oficial de Python (FastMCP)
+- [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) - La implementación oficial de Kotlin
+- [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) - Mantenido en colaboración con Loopwork AI
+- [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - La implementación oficial de Rust
+- [Go SDK](https://github.com/modelcontextprotocol/go-sdk) - La implementación oficial de Go
 
-## Key Takeaways
+## Conclusiones Clave
 
-- Setting up an MCP development environment is straightforward with language-specific SDKs
-- Building MCP servers involves creating and registering tools with clear schemas
-- MCP clients connect to servers and models to leverage extended capabilities
-- Testing and debugging are essential for reliable MCP implementations
-- Deployment options range from local development to cloud-based solutions
+- Configurar un entorno de desarrollo MCP es sencillo con los SDKs específicos para cada lenguaje
+- Construir servidores MCP implica crear y registrar herramientas con esquemas claros
+- Los clientes MCP se conectan a servidores y modelos para aprovechar capacidades extendidas
+- Las pruebas y la depuración son esenciales para implementaciones MCP confiables
+- Las opciones de despliegue van desde el desarrollo local hasta soluciones basadas en la nube
 
-## Practicing
+## Práctica
 
-We have a set of samples that complements the exercises you will see in all chapters in this section. Additionally each chapter also has their own exercises and assignments
+Tenemos un conjunto de muestras que complementan los ejercicios que verás en todos los capítulos de esta sección. Además, cada capítulo también tiene sus propios ejercicios y tareas
 
 - [Java Calculator](./samples/java/calculator/README.md)
 - [.Net Calculator](./samples/csharp/)
@@ -95,14 +95,14 @@ We have a set of samples that complements the exercises you will see in all chap
 - [TypeScript Calculator](./samples/typescript/README.md)
 - [Python Calculator](./samples/python/)
 
-## Additional Resources
+## Recursos Adicionales
 
 - [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/azure/developer/ai/intro-agents-mcp)
 - [Remote MCP with Azure Container Apps (Node.js/TypeScript/JavaScript)](https://learn.microsoft.com/samples/azure-samples/mcp-container-ts/mcp-container-ts/)
 - [.NET OpenAI MCP Agent](https://learn.microsoft.com/samples/azure-samples/openai-mcp-agent-dotnet/openai-mcp-agent-dotnet/)
 
-## What's next
+## Qué sigue
 
-Start with the first lesson: [Creating your first MCP Server](01-first-server/README.md)
+Comienza con la primera lección: [Creando tu primer Servidor MCP](01-first-server/README.md)
 
-Once you've completed this module, continue to: [Module 4: Practical Implementation](../04-PracticalImplementation/README.md)
+Una vez que hayas completado este módulo, continúa con: [Módulo 4: Implementación Práctica](../04-PracticalImplementation/README.md)
